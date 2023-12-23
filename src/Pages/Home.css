@@ -1,0 +1,53 @@
+.down-arrow {
+    animation: 2s ease-in-out down-animation infinite;
+}
+
+@keyframes down-animation {
+    0% {
+        opacity: 0;
+        transform: translate(-30px, -30px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(30px, 30px);
+    }
+}
+
+.text-typing {
+    margin: auto;
+    width: 23ch;
+    animation: typing 4s steps(23) infinite, blink 1s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    25% {
+        width: 23ch;
+    }
+    50% {
+        width: 23ch;
+    }
+    75% {
+        width: 23ch;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
