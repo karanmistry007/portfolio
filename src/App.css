@@ -46,14 +46,14 @@ body {
 
 
 
-#navbar a {
+.dropdown-menu a {
   text-decoration: none;
   display: inline-block;
   position: relative;
   transition: all 0.3s ease 0s, left 0.3s ease 0s;
 }
 
-#navbar a:after {
+.dropdown-menu a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -66,29 +66,64 @@ body {
   width: 0;
 }
 
-#navbar a:hover:after {
+.dropdown-menu a:hover:after {
   width: 100%;
   left: 0;
 }
 
-#navbar .active {
+.dropdown-menu .active {
   color: #3e64ff;
 }
 
-#navbar .active:after {
+.dropdown-menu .active:after {
   color: #3e64ff;
   width: 100%;
   left: 0;
 }
 
-/* #navbar{
+/* .dropdown-menu{
   animation: 1s navbar-animation ease-in-out;
 } */
 @keyframes navbar-animation {
   from{
-    transform: translateY(-100px);
+    transform: translateY(-100%);
+    opacity: 0;
   }
   to{
     transform: translateY(0px);
+    opacity: 1;
   }
+}
+
+@keyframes dropdwon-animation {
+  from{
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes dropup-animation {
+  from{
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  to{
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
+
+.burger .line-1{
+  transition: all 0.4s ease-in-out;
+}
+.burger .line-2{
+  transition: all 0.4s ease-in-out;
+}
+.burger .line-3{
+  transition: all 0.4s ease-in-out;
 }

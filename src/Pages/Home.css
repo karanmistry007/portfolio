@@ -32,15 +32,19 @@
     0% {
         width: 0;
     }
+
     25% {
         width: 23ch;
     }
+
     50% {
         width: 23ch;
     }
+
     75% {
         width: 23ch;
     }
+
     100% {
         width: 0;
     }
@@ -50,4 +54,89 @@
     50% {
         border-color: transparent
     }
+}
+
+
+.progress-bar {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #f3f3f3;
+    /* Background color of the circle */
+}
+
+.progress-circle-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(50% at 50% 50%);
+    /* Create the circular shape */
+    background-image: conic-gradient(#3e64ff 0%,
+            #3e64ff 80%,
+            transparent 50%);
+}
+
+.progress-circle-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(50% at 50% 50%);
+    /* Create the circular shape */
+    background-image: conic-gradient(#3e64ff 0%,
+            #3e64ff 75%,
+            transparent 50%);
+}
+
+.progress-circle-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(50% at 50% 50%);
+    /* Create the circular shape */
+    background-image: conic-gradient(#3e64ff 0%,
+            #3e64ff 70%,
+            transparent 50%);
+}
+
+#services .card svg path {
+    transition: all 0.3s ease-in-out;
+}
+
+#services .card .line {
+    transition: all 0.3s ease-in-out;
+}
+
+#services .card p {
+    transition: all 0.3s ease-in-out;
+}
+
+#services .card:hover {
+    background-color: #5274ff;
+    color: #000000;
+}
+
+#services .card:hover svg path {
+    fill: #ffffff;
+}
+
+#services .card:hover .line {
+    background-color: #ffffff;
+}
+
+#services .card:hover p {
+    color: #000000;
+}
+
+
+
+#freelancing{
+    background-image: url("../Images/freelancing_bg.webp");
+    background-position: center;
 }
