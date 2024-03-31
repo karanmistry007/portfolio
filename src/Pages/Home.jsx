@@ -603,9 +603,9 @@ const Home = () => {
                             <h6 className="sub-heading text-white font-medium max-w-[600px] my-5">
                                 A small river named Duden flows by their place and supplies it with the necessary regelialia.
                             </h6>
-                            <button className="mt-2.5 mb-8 md:my-0  sm:mt-5 bg-[#3e64ff] border border-[#3e64ff] hover:bg-white hover:text-[#3e64ff] transition-all duration-300 py-3 px-6 sm:py-4 sm:px-7 rounded-full text-white font-bold text-sm ">
+                            <a href='#contact' className="cursor-pointer mt-2.5 mb-8 md:my-0  sm:mt-5 bg-[#3e64ff] border border-[#3e64ff] hover:bg-white hover:text-[#3e64ff] transition-all duration-300 py-3 px-6 sm:py-4 sm:px-7 rounded-full text-white font-bold text-sm ">
                                 HIRE ME
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </section>
@@ -615,7 +615,7 @@ const Home = () => {
                 {/* CONTACT SECTION  */}
                 <section id="contact" className='mt-8 md:mt-16'>
                     <div className="container-1 ">
-                        <div className="heading-div mb-16">
+                        <div className="heading-div mb-8 sm:mb-16">
                             <h2 className="text-3xl sm:text-5xl font-bold lg:mb-5 text-center">
                                 Contact Me
                             </h2>
@@ -624,10 +624,10 @@ const Home = () => {
                             </p>
                         </div>
                         <div className="flex flex-col-reverse md:flex-row items-center bg-[#f8f9fa]">
-                            <div className="1 w-full self-start">
+                            <div className="1 w-full self-start order-2 sm:order-1">
                                 <img className='object-cover w-[100%] ml-auto' src={AboutImage} alt="" />
                             </div>
-                            <div className="2 w-full py-8">
+                            <div className="2 w-full py-8 order-1  sm:order-2">
                                 <form action="" id="contact-me-form">
                                     <div className="form-data px-4 sm:px-10 flex justify-center flex-col gap-3 lg:gap-5">
                                         <div className="name">
