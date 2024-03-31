@@ -1,22 +1,20 @@
 import './App.css';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route, Router } from 'react-router-dom';
-import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
-import About from './Pages/About';
-
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 
 function App() {
   return (
     <>
-    <Navbar/>
+      <Navbar />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
         </Routes>
       </BrowserRouter>
-
+      <Footer />
     </>
   );
 }
