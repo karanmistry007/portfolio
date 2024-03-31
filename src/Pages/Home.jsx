@@ -93,14 +93,14 @@ const Home = () => {
                                                     ksmistry007@gmail.com
                                                 </td>
                                             </tr>
-                                            <tr>
+                                            {/* <tr>
                                                 <th className='pr-2.5 sm:pr-5 pb-2.5'>
                                                     Phone:
                                                 </th>
                                                 <td className='text-[#999999] text-sm sm:text-base'>
-                                                    +91 7485966965
+                                                    +91 9857894852
                                                 </td>
-                                            </tr>
+                                            </tr> */}
                                         </tbody>
                                     </table>
                                     <h6 className="my-2.5 text-xl font-medium lg:my-5">
@@ -613,7 +613,7 @@ const Home = () => {
 
 
                 {/* CONTACT SECTION  */}
-                <section id="contact" className='my-8 md:my-16'>
+                <section id="contact" className='mt-8 md:mt-16'>
                     <div className="container-1 ">
                         <div className="heading-div mb-16">
                             <h2 className="text-3xl sm:text-5xl font-bold lg:mb-5 text-center">
@@ -651,18 +651,7 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-                {/* END CONTACT SECTION  */}
-
-
-                {/* THANK YOU SECTION  */}
-                <section id="thankyou" className='my-8 sm:my-16'>
-                    <div className="container-1">
-                        <h1 className="text-[#3e64ff] text-center font-bold text-xl sm:text-3xl  mt-8 md:mt-16 mb-5 sm:mb-10">
-                            Thank you for visiting! Stay tuned for more details and updates coming soon to enhance your experience.
-                        </h1>
-                    </div>
-                </section>
-                {/* END THANK YOU SECTION  */}
+                {/* END CONTACT SECTION  */}    
 
             </section>
             {/* END MAIN SECTION  */}
