@@ -142,7 +142,7 @@ const Footer = () => {
                         </p>
                         <span className='hidden sm:inline'> | </span>
                         <p className='sm:inline'>
-                            Designed Inspired By <a href="https://colorlib.com/" className='font-bold text-white'>Colorlib</a>
+                            Designed Inspired From <a href="https://colorlib.com/" className='font-bold text-white'>Colorlib</a>
                         </p>
                     </div>
                 </div>
