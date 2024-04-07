@@ -136,7 +136,86 @@
 
 
 
-#freelancing{
+#freelancing {
     background-image: url("../Images/freelancing_bg.webp");
     background-position: center;
+}
+
+
+.animation-bottom {
+    /* opacity: 0; */
+    /* display: none; */
+    animation: from-bottom 0.3s ease-in-out;
+    /* transition: 0.3s ease-in-out; */
+}
+
+/* ANIMATION */
+.from-bottom-animation {
+    animation: from-bottom 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+@keyframes from-bottom {
+    from {
+        transform: translate(0%, 250px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0%, 0%);
+        opacity: 1;
+    }
+
+}
+
+@keyframes from-bottom-rev {
+    from {
+        transform: translate(0%, 0%);
+        opacity: 1;
+    }
+
+    to {
+        transform: translate(0%, 50px);
+        opacity: 0;
+    }
+
+}
+
+@keyframes from-top {
+    from {
+        transform: translate(0%, -50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0%, 0%);
+        opacity: 1;
+    }
+
+}
+
+@keyframes from-right {
+    from {
+        transform: translate(100%, 0%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0%, 0%);
+        opacity: 1;
+    }
+
+}
+
+@keyframes from-left {
+    from {
+        transform: translate(-100%, 0%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0%, 0%);
+        opacity: 1;
+    }
+
 }
