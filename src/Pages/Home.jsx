@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react'
+import React from 'react'
 import './Home.css'
 import AboutImage from "../Images/karan.jpg"
 import Pythonlogo from "../Images/python.jpg"
@@ -651,7 +651,7 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-                {/* END CONTACT SECTION  */}    
+                {/* END CONTACT SECTION  */}
 
             </section>
             {/* END MAIN SECTION  */}
