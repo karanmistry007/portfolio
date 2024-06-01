@@ -11,6 +11,7 @@ import Djangologo from "../Images/django.jpg"
 import Reactlogo from "../Images/react.jpg"
 import Frappelogo from "../Images/frappe.jpg"
 import Erpnextlogo from "../Images/erpnext.jpg"
+import KaranResume from "../resume/Karan_ERPNext_Developer_Resume.pdf"
 
 
 
@@ -99,22 +100,14 @@ const Home = () => {
                                                     ksmistry007@gmail.com
                                                 </td>
                                             </tr>
-                                            {/* <tr>
-                                                <th className='pr-2.5 sm:pr-5 pb-2.5'>
-                                                    Phone:
-                                                </th>
-                                                <td className='text-[#999999] text-sm sm:text-base'>
-                                                    +91 9857894852
-                                                </td>
-                                            </tr> */}
                                         </tbody>
                                     </table>
                                     <h6 className="my-2.5 text-xl font-medium lg:my-5">
                                         <span className='text-[#3e64ff]'>120</span> Project complete
                                     </h6>
-                                    <button className="mt-2.5 mb-8 md:my-0  sm:mt-5 bg-[#3e64ff] border border-[#3e64ff] hover:bg-white hover:text-[#3e64ff] transition-all duration-300 p-3 sm:p-4 rounded-full text-white font-bold text-sm ">
+                                    <a href={KaranResume} download className="mt-2.5 mb-8 md:my-0 inline-block sm:mt-5 bg-[#3e64ff] border border-[#3e64ff] hover:bg-white hover:text-[#3e64ff] transition-all duration-300 p-3 sm:p-4 rounded-full text-white font-bold text-sm ">
                                         DOWNLOAD CV
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
