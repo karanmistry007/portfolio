@@ -21,7 +21,7 @@
 
 .text-typing {
     margin: auto;
-    width: 23ch;
+    width: 29ch;
     animation: typing 4s steps(23) infinite, blink 1s step-end infinite;
     white-space: nowrap;
     overflow: hidden;
@@ -34,15 +34,15 @@
     }
 
     25% {
-        width: 23ch;
+        width: 29ch;
     }
 
     50% {
-        width: 23ch;
+        width: 29ch;
     }
 
     75% {
-        width: 23ch;
+        width: 29ch;
     }
 
     100% {

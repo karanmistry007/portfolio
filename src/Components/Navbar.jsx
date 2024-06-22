@@ -12,7 +12,7 @@ const Navbar = () => {
   const [NavActiveSection, setNavActiveSection] = useState('');
   const ScreenScroll = () => {
     // DEFINE ALL THE SECTIONS IN LINKS
-    const sections = ['home', 'about-me', 'resume', 'services', 'contact'];
+    const sections = ['home', 'about-me', 'resume', 'services', 'projects', 'contact'];
     let CurrentSection = '';
     for (const sectionId of sections) {
       const section = document.getElementById(sectionId);
@@ -131,6 +131,11 @@ const Navbar = () => {
                 <li>
                   <a href="#services" className={NavActiveSection === 'services' ? 'active py-2 services' : 'py-2 services'}>
                     Services
+                  </a>
+                </li>
+                <li>
+                  <a href="#projects" className={NavActiveSection === 'projects' ? 'active py-2 projects' : 'py-2 projects'}>
+                    Projects
                   </a>
                 </li>
                 <li className="hidden">

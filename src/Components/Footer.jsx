@@ -10,13 +10,14 @@ const Footer = () => {
                     {/* FOOTER CONTENT  */}
                     <div className="max-w-[400px] sm:max-w-none m-auto grid sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-10">
 
+                        {/* SECTION 1 */}
                         <div className="1">
                             <h3 className='font-bold text-[22px] mb-8'>
                                 About
                             </h3>
                             <ul className='text-[#ffffffb3] mb-8'>
                                 <li>
-                                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                    Full Stack Developer at Sanskar Techolab with expertise in Frappe ERPNext, Astro.js, React.js, Django, and ERPNext modules (CRM, Sales, etc.). Skilled in API integration and UI/UX enhancement for robust applications.
                                 </li>
                             </ul>
                             <div className="icons flex gap-4">
@@ -31,10 +32,12 @@ const Footer = () => {
                                 </a>
                             </div>
                         </div>
+                        {/* END SECTION 1 */}
 
+                        {/* SECTION 2 */}
                         <div className="2 sm:order-3 lg:order-none">
                             <h3 className='font-bold text-[22px] mb-8'>
-                                Links
+                                Sections
                             </h3>
                             <ul className='text-[#ffffffb3] mb-8 flex flex-col gap-3'>
                                 <li>
@@ -62,6 +65,12 @@ const Footer = () => {
                                     </a>
                                 </li>
                                 <li>
+                                    <a href="#projects" className='flex items-center gap-2 hover:text-white duration-300 hover:font-semi-bold'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffffb3" width="20px" height="20px" viewBox="0 0 24 24" id="right-arrow" data-name="Flat Line" className="icon flat-line"><line id="primary" x1="3" y1="12" x2="21" y2="12" style={{ fill: 'none', stroke: '#ffffffb3', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: 2 }} /><polyline id="primary-2" data-name="primary" points="18 15 21 12 18 9" style={{ fill: 'none', stroke: '#ffffffb3', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '2' }} /></svg>
+                                        Projects
+                                    </a>
+                                </li>
+                                <li>
                                     <a href="#contact" className='flex items-center gap-2 hover:text-white duration-300 hover:font-semi-bold'>
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffffb3" width="20px" height="20px" viewBox="0 0 24 24" id="right-arrow" data-name="Flat Line" className="icon flat-line"><line id="primary" x1="3" y1="12" x2="21" y2="12" style={{ fill: 'none', stroke: '#ffffffb3', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: 2 }} /><polyline id="primary-2" data-name="primary" points="18 15 21 12 18 9" style={{ fill: 'none', stroke: '#ffffffb3', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '2' }} /></svg>
                                         Contact
@@ -69,7 +78,9 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
+                        {/* END SECTION 2 */}
 
+                        {/* SECTION 3 */}
                         <div className="3">
                             <h3 className='font-bold text-[22px] mb-8'>
                                 Services
@@ -107,21 +118,23 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
+                        {/* END SECTION 3 */}
 
+                        {/* SECTION 4 */}
                         <div className="4 sm:order-4 lg:order-none">
                             <h3 className='font-bold text-[22px] mb-8'>
                                 Have a Questions?
                             </h3>
                             <ul className='text-[#ffffffb3] mb-8 flex flex-col gap-3'>
-                                <li className='flex items-start gap-3'>
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.0" id="Layer_1" width="40px" height="40px" viewBox="0 0 64 64" enableBackground="new 0 0 64 64" xmlSpace="preserve">
+                                <li className='flex items-start gap-3 cursor-pointer hover:text-white duration-300 hover:font-semi-bold'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.0" id="Layer_1" viewBox="0 0 64 64" enableBackground="new 0 0 64 64" xmlSpace="preserve">
                                         <path fill="#ffffff" d="M32,0C18.746,0,8,10.746,8,24c0,5.219,1.711,10.008,4.555,13.93c0.051,0.094,0.059,0.199,0.117,0.289l16,24  C29.414,63.332,30.664,64,32,64s2.586-0.668,3.328-1.781l16-24c0.059-0.09,0.066-0.195,0.117-0.289C54.289,34.008,56,29.219,56,24  C56,10.746,45.254,0,32,0z M32,32c-4.418,0-8-3.582-8-8s3.582-8,8-8s8,3.582,8,8S36.418,32,32,32z" />
                                     </svg>
                                     <p>
-                                        203 Fake St. Mountain View, San Francisco, California, USA
+                                        Ahmedabad, Gujrat, India.
                                     </p>
                                 </li>
-                                <li className='flex items-center gap-3'>
+                                <li className='flex items-center gap-3 cursor-pointer hover:text-white duration-300 hover:font-semi-bold'>
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="24px" height="24px" viewBox="0 0 24 24"><path d="M22,5V9L12,13,2,9V5A1,1,0,0,1,3,4H21A1,1,0,0,1,22,5ZM2,11.154V19a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V11.154l-10,4Z" /></svg>
                                     <p>
                                         ksmistry007@gmail.com
@@ -129,6 +142,7 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
+                        {/* END SECTION 4 */}
 
                     </div>
                     {/* END FOOTER CONTENT  */}
@@ -148,7 +162,6 @@ const Footer = () => {
                 </div>
             </section>
             {/* END FOOTER SECTION  */}
-
         </>
     )
 }

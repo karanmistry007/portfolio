@@ -1,6 +1,6 @@
 import React from 'react'
 
-const EducationCard = ({ SVG, Year, Degree, Place, Desc }) => {
+const EducationCard = ({ SVG, Year, Logo, Website, Degree, Place, Desc }) => {
     return (
         <div className="resume-card flex gap-2 sm:gap-5 flex-col sm:flex-row my-8 lg:my-12">
             <div className="bg-[#3e64ff] w-fit h-fit p-3 rounded-full cursor-pointer">
@@ -19,6 +19,11 @@ const EducationCard = ({ SVG, Year, Degree, Place, Desc }) => {
                 <h6 className='font-bold sm:text-lg sm:mt-2'>
                     {Place}
                 </h6>
+                {Logo ? (
+                    <a className='w-fit' href={Website}>
+                        <img className='h-[100px] w-fit' src={Logo} alt={Place} />
+                    </a>    
+                ) : "No Logo"}
                 <p className='text-[#999999] text-sm sm:text-base'>
                     {Desc}
                 </p>
