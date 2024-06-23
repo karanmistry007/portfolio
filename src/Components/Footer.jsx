@@ -17,7 +17,7 @@ const Footer = () => {
                             </h3>
                             <ul className='text-[#ffffffb3] mb-8'>
                                 <li>
-                                    Full Stack Developer at Sanskar Techolab with expertise in Frappe ERPNext, Astro.js, React.js, Django, and ERPNext modules (CRM, Sales, etc.). Skilled in API integration and UI/UX enhancement for robust applications.
+                                    Full Stack Developer at Sanskar Technolab with expertise in Frappe ERPNext, Astro.js, React.js, Django, and ERPNext modules (CRM, Sales, etc.). Skilled in API integration and UI/UX enhancement for robust applications.
                                 </li>
                             </ul>
                             <div className="icons flex gap-4">

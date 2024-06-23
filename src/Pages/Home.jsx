@@ -84,7 +84,7 @@ const Home = () => {
                                         About Me
                                     </h2>
                                     <p className="my-2.5 md:my-0 text-[#999999] lg:my-5 md:max-h-[200px] md:overflow-scroll lg:max-h-none lg:overflow-hidden">
-                                        As a seasoned Full Stack Developer at Sanskar Techolab, I specialize in Frappe ERPNext, Astro.js, React.js, and Django frameworks. My expertise includes developing and integrating REST and SOAP APIs, creating and automating Frappe Docker Images, and enhancing user interfaces. I excel in Frappe React integration and have extensive experience with ERPNext's CRM, Sales, Purchase, PMS, and Healthcare modules, as well as customizing Accounts and Assets. I am passionate about transforming innovative ideas into high-performing, robust applications.
+                                        As a seasoned Full Stack Developer at Sanskar Technolab, I specialize in Frappe ERPNext, Astro.js, React.js, and Django frameworks. My expertise includes developing and integrating REST and SOAP APIs, creating and automating Frappe Docker Images, and enhancing user interfaces. I excel in Frappe React integration and have extensive experience with ERPNext's CRM, Sales, Purchase, PMS, and Healthcare modules, as well as customizing Accounts and Assets. I am passionate about transforming innovative ideas into high-performing, robust applications.
                                     </p>
                                     <div className="ul-style block my-2 bg-[#3e64ff] w-[100%] h-[2px]"></div>
                                     <table className='my-2.5 md:my-0 text-left lg:my-5'>
