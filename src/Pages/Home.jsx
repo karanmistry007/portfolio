@@ -110,7 +110,7 @@ const Home = () => {
                                                     Address:
                                                 </th>
                                                 <td className='text-[#999999] text-sm sm:text-base'>
-                                                    Ahmedabad, Gujrat, India.
+                                                    Ahmedabad, Gujarat, India.
                                                 </td>
                                             </tr>
                                             <tr>
